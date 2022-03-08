@@ -1,0 +1,87 @@
+body{
+    background: url(../img/surf/como-participar-bg.jpg) no-repeat center center fixed;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto !important;
+    background-size: 100% 100%;
+}
+.center{ text-align: center;}
+.white{ color: white;}
+.black{ color: black !important;}
+.transparent { background-color: #f8f9fa00!important; }
+a.black{ color: black !important;}
+a{ text-decoration: none; color: white !important;}
+a:link, a:visited, a:active { text-decoration:none !important; }
+.font-w900{
+    font-weight:900;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.navbar-nav{
+    position: absolute;
+    right: 0;
+    padding-right: 40px;
+}
+.navbar-brand img {
+    max-width: 100%;
+    width: 150px;
+}
+.nav-link{ color: white; }
+.collapse.show {
+    display: block;
+    background: #6fd1ffbf;
+}
+ul li:nth-child(1) {
+    margin-right: 40px;
+}
+ul li:nth-child(2) {
+    margin-right: 40px;
+}
+.card{ 
+    background: rgba(255, 255, 255, 0.5) !important;
+    border-radius: 26px !important;
+ }
+.padding{
+    padding-left:10%;
+    padding-right: 10%;
+}
+.form-control{
+    background-color: #123C9E !important;
+    color: white !important;
+    margin-bottom: 15px;
+    border: 0px !important;
+    border-radius: 40px !important;
+}
+::placeholder { color: white !important; opacity: 1;}
+
+.btn-warning{
+    background: #EEB301 !important;
+    border-radius: 40px !important;
+    width: 130px;
+}
+
+
+
+@media (max-width: 960px)
+  {
+
+    body{
+        background: url(../img/surf/como-participar-bg-movil.jpg) no-repeat center center fixed;
+        min-height: 100vh;
+        background-size: cover;
+        overflow: auto;
+        background-size: 100% 100%;
+    }
+    .navbar-nav {
+        position: relative;
+        right: 0;
+        padding-right: 10%;
+    }
+    
+
+}

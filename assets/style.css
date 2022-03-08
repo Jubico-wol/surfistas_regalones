@@ -1,0 +1,345 @@
+
+header{
+    position: absolute;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+body{
+    height: 100vh;
+}
+
+.img-logo{
+    width: 20%;
+}
+
+.bg-home{
+    background-image: url('img/home.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bg-register{
+    background-image: url('img/register.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bg-participate{
+    background-image: url('img/participate.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.bg-participate-next{
+    background-image: url('img/participate-next.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bg-steps{
+    background-image: url('img/steps.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.btn-register{
+    background-color: #EEB301;
+    color: #10275B;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s ease-in-out 0s;
+}
+
+.btn-register-header{
+    background-color: #188B5D;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s ease-in-out 0s;
+}
+
+.btn-register:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.form-register{
+    display: flex;    
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.input-form{
+    background-color: #123C9E;
+    color: white;
+    margin-bottom: 15px;
+    border: 0px !important;
+    border-radius: 10px;
+    padding: 5px 5px 5px 10px;
+}
+
+.input-form-phone{
+    background-color: #123C9E;
+    color: white;
+    margin-bottom: 20px;
+    border: 0px !important;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px 5px 5px 10px;
+    width: 100%;
+}
+
+#label-phone{
+    background-color: #123C9E;
+    color: white;
+    margin-bottom: 20px;
+    border: 0px !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px 5px 5px 10px;
+}
+
+.input-form::placeholder{
+    color: white;
+}
+.input-form-phone::placeholder{
+    color: white;
+}
+
+.input-inline{
+    display: flex;
+    width: 100%;
+}
+
+.btn-register-form{
+    background-color: #EEB301;
+    color: #10275B;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border: 0;
+}
+
+.titles{
+    font-size: 30px;
+    color: #EEB301;
+    font-weight: bold;
+}
+
+.text-white{
+    color: white;
+}
+
+.top-10{
+    top: 15%;
+}
+
+.top-15{
+    top: 15%;
+}
+
+.input-column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input-column.w-100{
+    width: 100% !important;
+}
+#title-participate{
+    width: 85%;
+}
+/* NAVBAR */
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+a{
+    color: #EEB301 !important; 
+}
+
+.a-hover{
+    color:#10275B !important;
+}
+.a-hover:hover{
+    text-decoration: none;
+}
+
+.error{
+    color: red;
+}
+
+
+span.text-white.mt-3{
+    font-size: 20px;
+}
+
+#input-wrapper * {
+    position: absolute;
+  }
+  
+  #input-wrapper label {
+    z-index: 99;
+    line-height: 25px;
+    padding: 2px;
+    margin-left: 5px;
+  }
+  
+  #input-wrapper input {
+    height: 25px;
+    text-indent: 35px;
+  }
+
+@media only screen and (max-width: 600px) {
+    .bg-home{
+        background-image: url('img/mobile/home.jpg');
+    }
+    .bg-register{
+        background-image: url('img/mobile/register.jpg');
+    }
+    .bg-steps {
+        background-image: url('img/mobile/steps.jpg');
+    }
+    .bg-participate{
+        background-image: url('img/mobile/participate.png');
+    }
+    .bg-participate-next{
+        background-image: url('img/mobile/participate-next.jpg');
+    }
+    #header-desktop{
+        display: none;
+    }
+    #header-mobile{
+        display: initial !important;
+    }
+    .img-logo{
+        content:url('img/mobile/logo.png');
+        width: 80%;
+    }
+    .input-form{    
+        width: 75%;
+        margin-bottom: 12px;
+    }
+    .input-form-phone{
+        width: 60%;
+    }
+    .btn-register{
+        margin-top: -40%;
+    }
+    .input-inline{
+        display: initial;
+    }   
+    .input-column{
+        display: initial;
+    }
+    .input-inline>.input-form.w-50{
+        width: 75% !important;
+        margin-left: 0 !important;
+    }
+    .form-register{
+        padding-top: 0;
+    }
+    .titles.text-center.mt-3.mb-2{
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .top-10{
+        top: 7%;
+    }
+    .top-15{
+        top: 8%;
+    }
+    #title-registro{
+        display: none !important;
+    }
+    .titles{
+        font-size: 20px;
+    }
+    #title-participate{
+        width: 80% !important;
+    }
+    .text-white.text-center{
+        font-size: 14px;
+    }
+    span.text-white.mt-3{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) and (orientation: landscape) {
+    #header-desktop{
+        display: none;
+    }
+    #header-mobile{
+        display: initial !important;
+    }
+    .btn-register{
+        margin-top: -25px;
+    }
+
+    .input-column{
+        width: 80%;
+    }
+
+    #div-title-login{
+        top: 10% !important;
+    }
+    #title-login{
+        margin-bottom: 0 !important;
+    }
+  }

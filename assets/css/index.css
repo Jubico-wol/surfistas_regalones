@@ -1,0 +1,72 @@
+
+main{
+    background: url(../img/surf/home-bg.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+a {
+    color: white !important;
+    text-decoration: underline;
+}
+
+a:link, a:visited, a:active { text-decoration:none; }
+
+.btn-register{
+    /* display: flex;
+    align-items: center;
+    min-height: 50vh;
+    justify-content: center; */
+    
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+}
+
+.btn-surf{
+    background: #183B97 !important;
+    color: white !important;
+    text-decoration: none;
+}
+nav{ position: absolute !important; }
+
+.navbar-brand img {
+    max-width: 100%;
+    width: 150px;
+}
+
+
+/* All mobile dimensions */
+@media (max-width: 960px)
+  {
+    main{
+        background: url(../img/surf/home-movil-bg.jpg) no-repeat center center fixed;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size: 100% 100%;
+    }
+}
+
+/* Samsumg Galaxy A51/71  and less*/
+@media (max-width: 914px)
+and (max-height: 412px) {
+    main{
+        background: url(../img/surf/home-bg.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
