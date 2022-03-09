@@ -94,25 +94,25 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light transparent">
-  <a class="navbar-brand" href="../">
-      <img src="../assets/img/surf/logo.png" alt="">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="../como-participar/"> ¿Cómo participar?</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="https://snacksyummies.com/Navidad/assets/terminos.pdf">Términos y condiciones</a>
-      </li>
-      <li class="nav-item">
-       <button class="btn btn-warning"><a href="../iniciar/">Login</a></button>
-      </li>
-    </ul>
-  </div>
+    <a class="navbar-brand" href="../">
+        <img src="../assets/img/surf/logo.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="../como-participar/"> ¿Cómo participar?</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="https://snacksyummies.com/Navidad/assets/terminos.pdf">Términos y condiciones</a>
+            </li>
+            <li class="nav-item">
+                <a href="../iniciar/"><button class="btn btn-warning">Login</button></a>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 
@@ -189,54 +189,37 @@
                                                 </div>
                                             </div>
 
-                                            
-
                                             <div class="col-md-12">
                                             <br>
                                                <div class="center">
-                                                    <button class="btn btn-warning"><a href="">Registrate</a> </button>
+                                                    <button class="btn btn-warning"><a href="">Regístrate</a></button>
                                                </div>
                                             </div>
 
                                             <div class="col-md-12">
                                             <br>
                                                <div class="center">
-                                                  <span> ¿Ya tienes una cuenta?   <a class="black" href="../iniciar/">Ingresa aquí</a></span>
+                                                  <span> ¿Ya tienes una cuenta? <a class="black" href="../iniciar/"> Ingresa aquí </a></span>
                                                </div>
 
                                                <br>
 
                                             </div>
 
-
                                         </div>
                                    </div>
 
 
-
-
-
-
-
-
                                 </form>
-
 
                         </div>
 
                         <br><br>
             
-             
-            
-       
-                
                 </div>
                 <div class="col-sm-2 col-md-3"></div>
             </div>
         </div>
-
-
-
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

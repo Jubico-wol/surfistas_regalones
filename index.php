@@ -35,9 +35,11 @@
 
         <div class="container">
             <div class="btn-register">
-                <button class="btn btn-surf">
-                <a href="registro" class="a-hover">Regístrate</a>
-                </button>
+                <a href="registro">
+                    <button class="btn btn-surf">
+                        Regístrate
+                    </button>
+                </a>
             </div>
         </div>
         </main>

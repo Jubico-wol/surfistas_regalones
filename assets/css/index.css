@@ -34,6 +34,8 @@ a:link, a:visited, a:active { text-decoration:none; }
     background: #183B97 !important;
     color: white !important;
     text-decoration: none;
+    border-radius: 40px !important;
+    width: 130px;
 }
 nav{ position: absolute !important; }
 
