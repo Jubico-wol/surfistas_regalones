@@ -32,16 +32,15 @@
     </nav>
 
        <main>
-
-        <div class="container">
-            <div class="btn-register">
-                <a href="registro">
-                    <button class="btn btn-surf">
-                        Regístrate
-                    </button>
-                </a>
+            <div class="container">
+                <div class="btn-register">
+                    <a href="registro">
+                        <button class="btn btn-surf">
+                            Regístrate
+                        </button>
+                    </a>
+                </div>
             </div>
-        </div>
         </main>
 
 

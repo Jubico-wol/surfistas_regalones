@@ -17,51 +17,9 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8MMVH4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     
-    <!-- <header>
-        <div class="row header" id="header-desktop">
-            <div class="col-sm-6">
-                <img src="../assets/img/logo.png" alt="Logo" class="w-25 ml-5">
-            </div>
-            <div class="col-sm-6 d-flex justify-content-end align-items-center pr-5">
-                <a href="../como-participar/"><span class="text-white mr-5">¿Cómo participar?</span></a>
-                <span class="text-white ml-5 mr-5">Términos y condiciones</span>
-                <a href="../iniciar/"><button type="button" class="btn-register-header">Login</button></a>
-            </div>
-        </div>
-        <div class="header" id="header-mobile" style="display:none;">
-            <nav class="navbar navbar-light white lighten-4">
-                <div class="d-flex flex-row w-100">
-                    <a class="navbar-brand" href="#">
-                        <img src="../assets/img/logo.png" alt="Logo" class="img-logo">
-                    </a>
-                    <button class="navbar-toggler toggler-example ml-auto" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="text-white">
-                            <i class="fas fa-bars fa-1x"></i>
-                        </span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="navbar-nav mr-auto bg-light">
-                        <li class="nav-item pl-3">
-                            <a class="nav-link" href="../iniciar/"><span style="color:black;">Login</span></a>
-                        </li>
-                        <li class="nav-item pl-3">
-                            <a class="nav-link" href="https://snacksyummies.com/Navidad/assets/terminos.pdf"><span style="color:black;">Términos y condiciones</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header> -->
-
-    <!-- <main>
-        <div class="bg-steps"></div>
-    </main> -->
 
 
 
-
-    
 <nav class="navbar navbar-expand-lg navbar-light transparent">
   <a class="navbar-brand" href="../">
       <img src="../assets/img/surf/logo.png" alt="">

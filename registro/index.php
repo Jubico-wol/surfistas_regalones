@@ -18,41 +18,6 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8MMVH4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
    
-   
-   
-
-      <!--   <form action="" class="form-register align-items-center text-center mt-3" id="form-registration" autocomplete="off">
-                    <div class="input-inline">
-                        <input type="text" name="name" id="name" class="input-form w-50" placeholder="Nombres" onkeydown="return onKeyDownHandler(event, this.value, 2);">
-                        <input type="text" name="lastname" id="lastname" class="input-form w-50 ml-3" placeholder="Apellidos" onkeydown="return onKeyDownHandler(event, this.value,2);">
-                    </div>
-                    <div class="input-inline">
-                        <select name="country" id="country" class="input-form w-50 pr-2" onchange="updateData(this.value)"> 
-                            <option value="0">País</option>
-                            <option value="1">Guatemala</option>
-                            <option value="2">El Salvador</option>
-                            <option value="3">Honduras</option>
-                            <option value="4">Nicaragua</option>
-                            <option value="6">Costa Rica</option>
-                        </select>
-                        <select name="state" id="state" class="input-form w-50 ml-3" onchange="onKeyDown()">
-                            <option value="">Departamento</option>
-                        </select>
-                    </div>
-                    <div class="input-column">
-                        <input type="text" name="id" id="id" class="input-form" placeholder="Identificación" onkeydown="onKeyDown()">
-                        <input type="email" name="email" id="email" class="input-form" placeholder="Correo eléctronico" onkeydown="onKeyDown()">
-                    </div>
-                    <div class="input-inline">
-                        <label for="phone" id="label-phone">+502</label>
-                        <input type="text" name="phone" id="phone" class="input-form-phone" placeholder="Teléfono" onkeydown="onKeyDown()">
-                    </div>
-                    <label id="label-error" class="error"></label>
-                    <div class="d-flex flex-column justify-content-center align-items-center ">
-                        <button type="button" class="btn-register-form" id="btn-register">Regístrate</button>
-                        <span class="text-white mt-3">¿Ya tienes una cuenta? <br>Ingresa <a href="../iniciar/" >aquí</a></span>
-                    </div>
-                </form> -->
 
 
 <nav class="navbar navbar-expand-lg navbar-light transparent">
@@ -171,17 +136,11 @@
                                                <br>
 
                                             </div>
-
                                         </div>
-                                   </div>
-
-
+                                    </div>
                                 </form>
-
                         </div>
-
                     <br><br>
-            
                 </div>
                 <div class="col-sm-2 col-md-3"></div>
             </div>
