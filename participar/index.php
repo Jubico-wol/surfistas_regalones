@@ -65,8 +65,8 @@
                                             <div class="col-md-12">
                                                 <div class="center">
                                                 <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
-                                                    <input type="file" name="invoice_file" id="invoice_file" class="visuallyhidden" style=" text-over: ellipsis">
-                                                    <button class="btn form-control file-upload">File upload</button>
+                                                    <input type="file" name="invoice_file" id="invoice_file" class="" style="text-over: ellipsis;width: 100%;">
+                                                    <!-- <button class="btn form-control file-upload">File upload</button> -->
                                                     <br><br>
                                                     <button type="button" class="btn btn-warning" id="btn-send"><a href="">Subir fotografía</a> </button>
                                                 </div>

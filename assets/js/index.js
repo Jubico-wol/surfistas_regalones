@@ -217,7 +217,7 @@ $("#btn-send").on("click",function(){
                         showConfirmButton: false,
                         timer: 3000
                     }).then(() => {
-                        $("#form-upload")[0].reset();
+                        // $("#form-upload")[0].reset();
                          window.location = "../participando";
                     }); 
                 }else{
