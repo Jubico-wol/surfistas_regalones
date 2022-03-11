@@ -1,6 +1,4 @@
-<?php 
-session_start();
-?>
+<?php session_start(); ?>
 
 <?php if(isset($_SESSION["id_user"]) && isset($_SESSION["token"])) : ?>
     <?php header("location: ../participar"); ?>
@@ -26,173 +24,79 @@ session_start();
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8MMVH4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-   
-    <!-- <header>
-            <div class="row header" id="header-desktop">
-                <div class="col-sm-6">
-                    <img src="../assets/img/logo.png" alt="Logo" class="img-logo ml-5">
-                </div>
-                <div class="col-sm-6 d-flex justify-content-end">
-                    <a href="../como-participar/"><span class="text-white mr-5">¿Cómo participar?</span>
-                    <span class="text-white ml-5 mr-5">Términos y condiciones</span>
-                </div>
+        
+        <nav class="navbar navbar-expand-lg navbar-light transparent">
+            <a class="navbar-brand" href="../">
+                <img class="img-logo" src="../assets/img/surf/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../como-participar/"> ¿Cómo participar?</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://snacksyummies.com/Navidad/assets/terminos.pdf">Términos y condiciones</a>
+                </li>
+                </ul>
             </div>
-            <div class="header" id="header-mobile" style="display:none;">
-                <nav class="navbar navbar-light white lighten-4">
-                    <div class="d-flex flex-row w-100">
-                        <a class="navbar-brand" href="#">
-                            <img src="../assets/img/logo.png" alt="Logo" class="img-logo">
-                        </a>
-                        <button class="navbar-toggler toggler-example ml-auto" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="text-white">
-                                <i class="fas fa-bars fa-1x"></i>
-                            </span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="navbar-nav mr-auto bg-light">
-                            <li class="nav-item pl-3">
-                                <a class="nav-link" href="../como-participar/"><span class="">¿Cómo participar?</span></a>
-                            </li>
-                            <li class="nav-item pl-3">
-                                <a class="nav-link" href="#"><span class="">Términos y condiciones</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header> -->
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light transparent">
-  <a class="navbar-brand" href="../">
-      <img class="img-logo" src="../assets/img/surf/logo.png" alt="">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="../como-participar/"> ¿Cómo participar?</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="https://snacksyummies.com/Navidad/assets/terminos.pdf">Términos y condiciones</a>
-      </li>
-     
-    </ul>
-  </div>
-</nav>
-
-
-
-
-
-
-
-        <!-- <main>
-            <div class="bg-register">
-                <div class="col-sm-6 col-md-3 col-lg-3" id="div-title-login">
-                    <div class="d-flex justify-content-center">
-                        <span class="titles text-center mt-3 mb-2" id="title-login">INGRESA</span>
-                    </div>
-                    <form action="" class="form-register align-items-center text-center">
-                        <div class="input-column">
-                            <input type="email" name="email" id="email" class="input-form" placeholder="Correo eléctronico">
-                            <input type="text" name="id" id="id" class="input-form" placeholder="Identificación">
-                        </div>
-                        <div class="d-flex flex-column justify-content-center align-items-center">
-                            <button type="button" class="btn-register-form mb-2" id="btn-login">Ingresar</button>
-                            <span class="text-white">¿No tienes una cuenta? Ingresa <a href="../registro/" >aquí</a></span>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </main> -->
-
-
-
-
-
-
+        </nav>
 
 
         <div class="container">
             <div class="row">
                 <div class="col-md-3"></div>
                     <div class="col-md-6">
-
                         <div class="card">
                             <img src="../assets/img/surf/title.png" alt="">
                             
                                 <div class="center">
                                     <h1 class="white font-w900"> INGRESA </h1>
                                 </div>
-
                                 <br>
                                 <form action="" id="form-registration" autocomplete="off">
-                               
                                    <div class="container">
                                         <div class="row padding">
                                       
                                             <div class="col-md-12">
                                                 <div class="mb-3">
-                                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Correo eléctronico">
+                                                    <input type="text" name="email" id="email" class="form-control" placeholder="Correo eléctronico">
                                                 </div>
                                             </div>
 
                                             <div class="col-md-12">
                                                 <div class="mb-3">
-                                                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Contraseña">
+                                                    <input type="text" name="id" id="id" class="form-control" placeholder="Identificación">
                                                 </div>
                                             </div>
-                                        
-
+                        
                                             <div class="col-md-12">
                                             <br>
                                                <div class="center">
-                                                    <button class="btn btn-warning"><a href="">Ingresar</a> </button>
+                                                    <button type="button" class="btn btn-warning" id="btn-login">Ingresar</button>
                                                </div>
                                             </div>
 
                                             <div class="col-md-12">
-                                            <br>
+                                                <br>
                                                <div class="center">
                                                   <span> ¿Si no tienes una cuenta?   <a class="black" href="../registro/">Ingresa aquí</a></span>
                                                </div>
-
                                                <br> 
                                             </div>
-
-
                                         </div>
                                    </div>
-
-
-
-
-
-
-
-
                                 </form>
-
-
                         </div>
-
-                   
-
-                        </div>
+                    </div>
                 <div class="col-md-3"></div>
             </div>
         </div>
 
 
-
-
-
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

@@ -20,44 +20,6 @@
    
    
    
-    <!-- <header>
-
-        <div class="row header" id="header-desktop">
-            <div class="col-sm-6">
-                <img src="../assets/img/logo.png" alt="Logo" class="img-logo ml-5">
-            </div>
-            <div class="col-sm-6">
-                <a href="../como-participar/"><span class="text-white mr-5">¿Cómo participar?</span>
-                <span class="text-white ml-5 mr-5">Términos y condiciones</span>
-            </div>
-        </div>
-        <div class="header" id="header-mobile" style="display:none;">
-            <nav class="navbar navbar-light white lighten-4">
-                <div class="d-flex flex-row w-100">
-                    <a class="navbar-brand" href="#">
-                        <img src="../assets/img/logo.png" alt="Logo" class="img-logo">
-                    </a>
-                    <button class="navbar-toggler toggler-example ml-auto" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="text-white">
-                            <i class="fas fa-bars fa-1x"></i>
-                        </span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="navbar-nav mr-auto bg-light">
-                        <li class="nav-item pl-3">
-                            <a class="nav-link" href="../como-participar/"><span style="color:black;">¿Cómo participar?</span></a>
-                        </li>
-                        <li class="nav-item pl-3">
-                            <a class="nav-link" href="https://snacksyummies.com/Navidad/assets/terminos.pdf"><span style="color:black;">Términos y condiciones</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header> -->
-
-
 
       <!--   <form action="" class="form-register align-items-center text-center mt-3" id="form-registration" autocomplete="off">
                     <div class="input-inline">
@@ -130,32 +92,32 @@
                                     <h1 class="white font-w900"> REGÍSTRATE </h1>
                                 </div>
                                 <br>
-                                <form action="" id="form-registration" autocomplete="off">
+                                <form name="form-registration" action="" id="form-registration" autocomplete="off">
                                
                                    <div class="container">
                                     <div class="row padding">
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                 
-                                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombres">
+                                                    <input type="text"  name="name" id="name" class="form-control" placeholder="Nombres" onkeydown="return onKeyDownHandler(event, this.value, 2);">
                                                 </div>
                                             </div>
 
                                             <div class="col-md-6">
                                                 <div class="mb-3">
-                                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellidos">
+                                                    <input type="text" name="lastname"  id="lastname" class="form-control" placeholder="Apellidos" onkeydown="return onKeyDownHandler(event, this.value,2);">
                                                 </div>
                                             </div>
 
                                             <div class="col-md-12">
                                                 <div class="mb-3">
-                                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Identificacion">
+                                                    <input type="text" name="id" id="id" class="form-control"  placeholder="Identificacion" onkeydown="onKeyDown()">
                                                 </div>
                                             </div>
 
                                             <div class="col-md-12">
                                                 <div class="mb-3">
-                                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo Electronico">
+                                                    <input type="email" name="email" id="email"  class="form-control" placeholder="Correo Electronico" onkeydown="onKeyDown()" pattern="">
                                                 </div>
                                             </div>
 
@@ -184,15 +146,19 @@
 
                                             <div class="col-md-12">
                                                 <div class="mb-3 in-line">
-                                                    <label class="tel-label">+502</label>
-                                                    <input type="number" class="form-control tel-input" id="exampleFormControlInput1" placeholder="Telefono">
+                                                    <label class="tel-label" id="label-phone">+502</label>
+                                                    <input type="number" name="phone" id="phone" class="form-control tel-input"  placeholder="Telefono" onkeydown="onKeyDown()">
                                                 </div>
                                             </div>
 
                                             <div class="col-md-12">
-                                            <br>
+                        
+                                            <div class="center">
+                                            <label id="label-error" class="error"></label>
+                                            </div>
+                                            
                                                <div class="center">
-                                                    <button class="btn btn-warning"><a href="">Regístrate</a></button>
+                                                    <button type="button" class="btn btn-warning" id="btn-register">Regístrate</button>
                                                </div>
                                             </div>
 
@@ -214,7 +180,7 @@
 
                         </div>
 
-                        <br><br>
+                    <br><br>
             
                 </div>
                 <div class="col-sm-2 col-md-3"></div>
@@ -226,6 +192,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js" integrity="sha512-6Uv+497AWTmj/6V14BsQioPrm3kgwmK9HYIyWP+vClykX52b0zrDGP7lajZoIY1nNlX4oQuh7zsGjmF7D0VZYA==" crossorigin="anonymous"></script>
     <script src="../assets/js/index.js"></script>
 </body>
 </html>

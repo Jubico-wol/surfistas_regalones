@@ -18,6 +18,7 @@ body{
 .center{ text-align: center;}
 .white{ color: white;}
 .black{ color: black !important;}
+.blue{ color:  #183B97;}
 .transparent { background-color: #f8f9fa00!important; }
 a.black{ color: black !important;}
 a{ text-decoration: none; color: white !important;}
@@ -48,7 +49,7 @@ a:link, a:visited, a:active { text-decoration:none !important; }
 }
 .card img {
     max-width: 100%;
-    width: 550px;
+ 
     margin: 0 auto;
 }
 .nav-link{ color: white; }
@@ -60,77 +61,17 @@ ul li:nth-child(2) {
     margin-right: 40px;
 }
 .card{ 
+    display: flex;
+    justify-content: center;
     background: rgba(255, 255, 255, 0.5) !important;
     border-radius: 26px !important;
+    height: 650px;
  }
 .padding{
     padding-left:10%;
     padding-right: 10%;
 }
-.form-control{
-    background-color: #123C9E !important;
-    color: white !important;
-    margin-bottom: 15px;
-    border: 0px !important;
-    border-radius: 40px !important;
-   
-}
-.tel-input{
-    border-radius: inherit !important;
-    border-top-right-radius: 25px !important;
-    border-bottom-right-radius: 25px !important; 
-    background-color: #123C9E !important;
-    color: white !important;
-    margin-bottom: 15px;
-    border: 0px !important;
-}
-.tel-label{
-    background-color: #123C9E !important;
-    color: white !important;
-    margin-bottom: 15px;
-    border: 0px !important;
-    border-top-left-radius: 25px !important;
-    border-bottom-left-radius: 25px !important; 
-    padding: 5px;
-}
-.in-line{ 
-    display: flex;
-    width: 100%;
-}
-::placeholder { color: white !important; opacity: 1;}
 
-.btn-warning{
-    background: #EEB301 !important;
-    border-radius: 40px !important;
-    width: 130px;
-    color:white !important;
-}
-.error{
-    margin: 0 auto;
-    color: red;
-    font-weight: 900;
-}
-
-/* 
-@media (max-width: 960px)
-  {
-
-    body{
-        background: url(../img/surf/registrar-movil-bg.jpg) no-repeat center center fixed;
-        min-height: 100vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow: hidden;
-        background-size: cover;
-    }
-    .navbar-nav {
-        position: relative;
-        right: 0;
-        padding-right: 10%;
-    }
-    
-
-} */
 
 
 
@@ -161,8 +102,6 @@ ul li:nth-child(2) {
         flex: inherit !important;
         max-width: 100% !important;
     }
-
-
 
 }
 
@@ -205,5 +144,3 @@ and (max-height: 412px) {
     }
     
 }
-
-
