@@ -41,119 +41,98 @@
         </ul>
     </div>
 </nav>
-
-
-        
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2 col-md-3"></div>
-                    <div class="col-12 col-sm-8 col-md-6">
-
-                        <div class="card">
-                            <img src="../assets/img/surf/title.png" alt="">
-                            
-                                <div class="center">
-                                    <h1 class="white font-w900"> REGÍSTRATE </h1>
-                                </div>
-                                <br>
-                                <form name="form-registration" action="" id="form-registration" autocomplete="off">
-                               
-                                   <div class="container">
-                                    <div class="row padding">
-                                            <div class="col-md-6">
-                                                <div class="mb-3">
-                                                
-                                                    <input type="text"  name="name" id="name" class="form-control" placeholder="Nombres" onkeydown="return onKeyDownHandler(event, this.value, 2);">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6">
-                                                <div class="mb-3">
-                                                    <input type="text" name="lastname"  id="lastname" class="form-control" placeholder="Apellidos" onkeydown="return onKeyDownHandler(event, this.value,2);">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-12">
-                                                <div class="mb-3">
-                                                    <input type="text" name="id" id="id" class="form-control"  placeholder="Identificacion" onkeydown="onKeyDown()">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-12">
-                                                <div class="mb-3">
-                                                    <input type="email" name="email" id="email"  class="form-control" placeholder="Correo Electronico" onkeydown="onKeyDown()" pattern="">
-                                                </div>
-                                            </div>
-
-
-                                            <div class="col-md-6">
-                                                <div class="mb-3">
-                                                    <select name="country" id="country" class="form-control" onchange="updateData(this.value)"> 
-                                                        <option value="0">País</option>
-                                                        <option value="1">Guatemala</option>
-                                                        <option value="2">El Salvador</option>
-                                                        <option value="3">Honduras</option>
-                                                        <option value="4">Nicaragua</option>
-                                                        <option value="6">Costa Rica</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6">
-                                                <div class="mb-3">
-                                                <select name="state" id="state" class="form-control" onchange="onKeyDown()">
-                                                    <option value="">Departamento</option>
-                                                </select>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="col-md-12">
-                                                <div class="mb-3 in-line">
-                                                    <label class="tel-label" id="label-phone">+502</label>
-                                                    <input type="number" name="phone" id="phone" class="form-control tel-input"  placeholder="Telefono" onkeydown="onKeyDown()">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-12">
-                        
-                                            <div class="center">
-                                            <label id="label-error" class="error"></label>
-                                            </div>
-                                            
-                                               <div class="center">
-                                                    <button type="button" class="btn btn-warning" id="btn-register">Regístrate</button>
-                                               </div>
-                                            </div>
-
-                                            <div class="col-md-12">
-                                            <br>
-                                               <div class="center">
-                                                  <span> ¿Ya tienes una cuenta? <a class="black" href="../iniciar/"> Ingresa aquí </a></span>
-                                               </div>
-
-                                               <br>
-
-                                            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2 col-md-3"></div>
+            <div class="col-12 col-sm-8 col-md-6">
+                <div class="card">
+                    <img src="../assets/img/surf/title.png" alt="">
+                        <div class="center">
+                            <h1 class="white font-w900"> REGÍSTRATE </h1>
+                        </div>
+                        <br>
+                        <form name="form-registration" action="" id="form-registration" autocomplete="off">
+                            <div class="container">
+                                <div class="row padding">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                        
+                                            <input type="text"  name="name" id="name" class="form-control" placeholder="Nombres" onkeydown="return onKeyDownHandler(event, this.value, 2);">
                                         </div>
                                     </div>
-                                </form>
-                        </div>
-                    <br><br>
-                </div>
-                <div class="col-sm-2 col-md-3"></div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <input type="text" name="lastname"  id="lastname" class="form-control" placeholder="Apellidos" onkeydown="return onKeyDownHandler(event, this.value,2);">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <input type="text" name="id" id="id" class="form-control"  placeholder="Identificacion" onkeydown="onKeyDown()">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <input type="email" name="email" id="email"  class="form-control" placeholder="Correo Electronico" onkeydown="onKeyDown()" pattern="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <select name="country" id="country" class="form-control" onchange="updateData(this.value)"> 
+                                                <option value="0">País</option>
+                                                <option value="1">Guatemala</option>
+                                                <option value="2">El Salvador</option>
+                                                <option value="3">Honduras</option>
+                                                <option value="4">Nicaragua</option>
+                                                <option value="6">Costa Rica</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                        <select name="state" id="state" class="form-control" onchange="onKeyDown()">
+                                            <option value="">Departamento</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="mb-3 in-line">
+                                            <label class="tel-label" id="label-phone">+502</label>
+                                            <input type="text" name="phone" id="phone" class="form-control tel-input"  placeholder="Telefono" onkeydown="onKeyDown()">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="center">
+                                        <label id="label-error" class="error"></label>
+                                        </div>
+                                        <div class="center">
+                                            <button type="button" class="btn btn-warning" id="btn-register">Regístrate</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <br>
+                                        <div class="center">
+                                            <span> ¿Ya tienes una cuenta? <a class="black" href="../iniciar/"> Ingresa aquí </a></span>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                <br><br>
             </div>
-        </div>
+        <div class="col-sm-2 col-md-3"></div>
+    </div>
+</div>
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js" integrity="sha512-6Uv+497AWTmj/6V14BsQioPrm3kgwmK9HYIyWP+vClykX52b0zrDGP7lajZoIY1nNlX4oQuh7zsGjmF7D0VZYA==" crossorigin="anonymous"></script>
-    <script src="../assets/js/index.js"></script>
+<script src="../assets/js/index.js"></script>
 </body>
 </html>

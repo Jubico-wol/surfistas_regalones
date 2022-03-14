@@ -4,6 +4,7 @@ session_start();
 error_reporting(E_ALL);
 ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
+
 require '../PHPMailer/src/Exception.php';
 require '../PHPMailer/src/PHPMailer.php';
 require '../PHPMailer/src/SMTP.php';
@@ -81,28 +82,28 @@ if(isset($_SESSION["id_user"]) && isset($_SESSION["token"])){
                             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                             $mail->SMTPAuth   = true;
                             $mail->Username = "support@wolvisor.com";
-                            $mail->Password = "ikczzbqbjxlhmpau";
+                            $mail->Password = "zhikcngxixagwwri";
                             $mail->setFrom('support@wolvisor.com', 'SNACKS YUMMIES');
                             $mail->addAddress($_SESSION["email"]);
                             $mail->isHTML(true);
-                            $mail->Subject = 'Ya estas participando en Los Duendes Regalones';
+                            $mail->Subject = 'Ya estas participando en Los Surfistas Regalones';
                             $mail->Body  = "<div>
                                                 <img src='https://snacksyummies.com/Navidad/assets/img/email-invoice.jpg'>
                                                 <h3>No responder a este correo, si tienes un problema con tu formulario, contáctanos vía inbox <a href='https://www.facebook.com/SnacksYummies'>aquí</a></h3>
                                             </div>";
 
-                            try {
-                                $mail->send();
+                            
+                            if($mail->send()){
                                 $response = array(
                                     "status" => 200,
                                     "msg" => "El Archivo ha sido subido correctamente."
                                 );
-                            } catch (Exception $e) {
+                            }else{
                                 $response = array(
                                     "status" => 400,
-                                    "msg" => "Message could not be sent. Mailer Error: {$mail->ErrorInfo}"
+                                    "msg" => "Error al enviar el correo."
                                 );
-                            }                            
+                            }    
                         }else{
                             $response = array(
                                 "status" => 400,
