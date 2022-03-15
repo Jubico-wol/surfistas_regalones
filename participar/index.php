@@ -49,7 +49,7 @@
                             <img src="../assets/img/surf/title.png" alt="">
                                 <div class="center">
                                     <h1 class="white font-w900"> NO. DE FACTURA </h1>
-                                    <p> Coloca el código de tu factura, debe contener  <br> 12 caracteres y sube una foto de tu factura</p>
+                                    <p> Coloca el código de tu factura, debe contener 12 caracteres y sube una foto de tu factura</p>
                                 </div>
                                 <br>
                                 <form action="" autocomplete="off" id="form-upload">
@@ -66,7 +66,7 @@
                                                     <input type="file" name="invoice_file" id="invoice_file" class="" style="text-over: ellipsis;width: 100%;">
                                                     <!-- <button class="btn form-control file-upload">File upload</button> -->
                                                     <br><br>
-                                                    <button type="button" class="btn btn-warning" id="btn-send"><a href="">Subir fotografía</a> </button>
+                                                    <button type="button" class="btn btn-warning" id="btn-send">Subir fotografía </button>
                                                 </div>
                                             </div>
                                         </div>
