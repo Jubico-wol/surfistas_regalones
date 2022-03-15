@@ -176,8 +176,8 @@ $("#btn-login").on("click",function(){
 
 
 
-$("#btn-send").on("click",function(){
-    
+$("#btn-send").on("click",function(event){
+    event.preventDefault();
     let invoice = $("#invoice").val();
     let inputFileImage = document.getElementById("invoice_file");
     let file = inputFileImage.files[0];
@@ -217,7 +217,7 @@ $("#btn-send").on("click",function(){
                         showConfirmButton: false,
                         timer: 3000
                     }).then(() => {
-                        // $("#form-upload")[0].reset();
+                        $("#form-upload")[0].reset();
                          window.location = "../participando";
                     }); 
                 }else{

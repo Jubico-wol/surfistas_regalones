@@ -52,16 +52,14 @@
                                     <p> Coloca el código de tu factura, debe contener  <br> 12 caracteres y sube una foto de tu factura</p>
                                 </div>
                                 <br>
-                                <form action="" id="form-registration" autocomplete="off">
+                                <form action="" autocomplete="off" id="form-upload">
                                     <div class="container">
                                         <div class="row padding">
-                                        
                                             <div class="col-md-12">
                                                 <div class="mb-3">
-                                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="No. de factura">
+                                                    <input type="text" class="form-control" name="invoice" id="invoice" placeholder="No. de factura">
                                                 </div>
                                             </div>
-                                            
                                             <div class="col-md-12">
                                                 <div class="center">
                                                 <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
