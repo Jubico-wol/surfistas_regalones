@@ -88,7 +88,7 @@ if(isset($_SESSION["id_user"]) && isset($_SESSION["token"])){
                             $mail->isHTML(true);
                             $mail->Subject = 'Ya estas participando en Los Surfistas Regalones';
                             $mail->Body  = "<div>
-                                                <img src='https://snacksyummies.com/Navidad/assets/img/email-invoice.jpg'>
+                                                <img src='https://snacksyummies.com/verano/assets/img/email-invoice.jpeg'>
                                                 <h3>No responder a este correo, si tienes un problema con tu formulario, contáctanos vía inbox <a href='https://www.facebook.com/SnacksYummies'>aquí</a></h3>
                                             </div>";
 
